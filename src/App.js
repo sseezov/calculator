@@ -1,11 +1,11 @@
-import "./App.css";
+import "./style.css";
 
 function App() {
   return (
     <div className="calc-grid">
       <div className="output">
-        <div className="prev-operand"></div>
-        <div className="curr-operand"></div>
+        <div className="prev-operand">123123123123*</div>
+        <div className="curr-operand">123123123123</div>
       </div>
       <button className="span-two">AC</button>
       <button>DEL</button>
